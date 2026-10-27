@@ -1,0 +1,10 @@
+{
+  "mechanism": "client-level Gaussian mechanism on the aggregated update (Flower DifferentialPrivacyServerSideFixedClipping)",
+  "clip_norm_C": 1.0,
+  "noise_multiplier_z": 0.5,
+  "rounds_composed": 40,
+  "delta": 1e-05,
+  "epsilon": 138.68670434739352,
+  "participation": "full (all clients every round; no subsampling amplification)",
+  "note": "Accounting covers released model updates only. Local feature and target scalers are never transmitted and are outside the guarantee."
+}

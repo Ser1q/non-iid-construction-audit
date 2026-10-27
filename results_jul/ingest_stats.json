@@ -1,0 +1,14 @@
+{
+  "ingest": {
+    "raw_records": 7870972,
+    "exact_duplicates": 16,
+    "malformed_rows": 61,
+    "unparsable_dates": 4098865,
+    "dates_out_of_window": 4098865,
+    "rows_without_route": 0,
+    "unique_taps": 3772091,
+    "days_covered": 30
+  },
+  "source": "prepare_data.py --raw_dir data/data_raw/Data-June,data/data_raw/Data-July",
+  "generated_utc": "2026-09-20T11:28:52+00:00"
+}

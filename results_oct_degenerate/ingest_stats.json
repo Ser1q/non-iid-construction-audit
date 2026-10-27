@@ -1,0 +1,17 @@
+{
+  "ingest": {
+    "raw_records": 7579066,
+    "exact_duplicates": 82073,
+    "malformed_rows": 60,
+    "unparsable_dates": 3572961,
+    "dates_out_of_window": 3572960,
+    "rows_without_route": 0,
+    "unique_taps": 3924032,
+    "days_covered": 30,
+    "timestamp_layouts": {
+      "dashed_dmy": 7496992
+    }
+  },
+  "source": "prepare_data.py --raw_dir data/data_raw/Data-October,data/data_raw/Data-November",
+  "generated_utc": "2026-09-20T16:18:59+00:00"
+}

@@ -1,0 +1,70 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rounds": 40,
+  "local_epochs": 2,
+  "lr": 0.003,
+  "batch_size": 32,
+  "mu": 0.01,
+  "clip_norm": 1.0,
+  "noise_multiplier": 0.5,
+  "isolated_epochs": 80,
+  "central_epochs": 60,
+  "n_clients": 75,
+  "n_features": 20,
+  "features": [
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "is_weekend",
+    "is_holiday",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_19",
+    "lag_38",
+    "lag_133",
+    "roll_mean_3",
+    "same_hour_mean_7d",
+    "daily_level_lag1",
+    "share_school_lag1",
+    "share_pass_lag1",
+    "share_single_lag1",
+    "share_privilege_lag1",
+    "n_buses_lag1"
+  ],
+  "train_days": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "val_days": [
+    24,
+    25
+  ],
+  "test_days": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "flwr_version": "1.33.0"
+}
